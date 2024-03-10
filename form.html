@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+   <form action="scripts/data.php" method = "post" enctype="multipart/form-data">
+      <label for="namefield">Name</label><br>
+      <input type="text" id="namefield" required><br>
+      <label for="DoB">Date of Birth</label><br>
+      <input type="date" name="" id="DoB" required><br>
+      <label for="gndr">Gender</label><br>
+       <select name="gnd" id="gndr" required><br>
+        <option value="gnd">Select</option>
+        <option value="gnd">Female</option>
+        <option value="gnd">Male</option>
+       </select><br>
+       <label for="add">Address</label><br>
+       <input type="text" id="add" required><br>
+       <label for="phn">Telephone</label><br>
+       <input type="number" required><br>
+       <label for="">Email Address</label><br>
+       <input type="email" required><br>
+       <label for="">Course</label><br>
+       <input type="text" required><br><br>
+       
+       <button type="submit">Register</button><br> <br>
+       <button type="reset">Clear</button>
+   </form> 
+</body>
+</html>
